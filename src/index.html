@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="font-titillium bg-[#15151E]">
+    <header class="fixed top-0 z-50 w-full bg-f1black flex items-center justify-between text-white">
+        <div class="w-1/4">
+            <img src="../assets/f175.png" alt="f175">
+        </div>
+
+        <nav class="font-orbitron w-1/2 flex justify-end">
+            <ul class="flex justify-center gap-6 text-2sm font-medium">
+                <li class="hover:font-bold transition duration-300 ease-in-out"><a href="../src/index.html">Home</a></li>
+                <li class="hover:font-bold transition duration-300 ease-in-out"><a href="../src/drivers.html">Driver</a></li>
+                <li class="hover:font-bold transition duration-300 ease-in-out"><a href="../src/teams.html">Teams</a></li>
+            </ul>
+        </nav>
+
+        <div class="w-1/4 flex justify-center pl-2 gap-2">
+            <button class="bg-gray-500 rounded rounded-full p-2 text-white font-bold hover:bg-gray-700">Race</button>
+            <button class="bg-f1red rounded rounded-full p-2 text-white font-bold hover:bg-red-800">Create Team</button>
+        </div>
+
+    </header>
+
+        <div class="fixed top-16 w-full z-50 bg-black border-y-2 border-white text-white p-2">
+            <p class="pl-8">Next Race: <strong>Belgium</strong></p>
+        </div>
+    
+
+    <section id="home" class="relative bg-cover bg-center h-screen text-white flex items-center justify-between px-12 py-10 scroll-mt-32"
+        style="background-image: url('../assets/redbull.jpg');">
+        
+        <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
+    </section>
+
+    <footer class="text-center text-sm text-white px-4 py-6">
+        <p>&copy; 2025 This site is unofficial and not affiliated with Formula 1.</p>
+        <p>All images and media are property of their respective owners. Some images used are from <a href="https://www.formula1.com" target="_blank" class="underline">Formula1.com</a>.</p>
+    </footer>
+
+    
+</body>
+</html>
