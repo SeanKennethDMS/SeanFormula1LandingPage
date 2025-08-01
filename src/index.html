@@ -22,8 +22,8 @@
         </nav>
 
         <div class="w-1/4 flex justify-center pl-2 gap-2">
-            <button class="bg-gray-500 rounded rounded-full p-2 text-white font-bold hover:bg-gray-700">Race</button>
-            <button class="bg-f1red rounded rounded-full p-2 text-white font-bold hover:bg-red-800">Create Team</button>
+            <button class="bg-gray-500 round rounded-full p-2 text-white font-bold hover:bg-gray-700 px-[2rem]">Race</button>
+            <button class="bg-f1red round rounded-full p-2 text-white font-bold hover:bg-red-800 px-[1rem]">Create Team</button>
         </div>
 
     </header>
@@ -37,12 +37,25 @@
         style="background-image: url('../assets/redbull.jpg');">
         
         <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
+
+        <div class="container-highlight flex flex-col-2 gap-[.5rem] justify-center absolute z-1">
+            <div class="left-item p-[.5rem] mt-[15%] bg-gray-500">
+                <img class="left-item-img w-[100%] h-250" src="../assets/News Card/left-item-img.avif">
+            </div>
+            <div class="right-item w-[100%] p-[.5rem] mt-[15%] mr-[5%] bg-red-700 grid grid-rows-5 gap-[1rem] basis-[60%]">
+                <div class="card p-[1rem]">RIGHT ITEM</div>
+                <div class="card p-[1rem]">RIGHT ITEM</div>
+                <div class="card p-[1rem]">RIGHT ITEM</div>
+                <div class="card p-[1rem]">RIGHT ITEM</div>
+                <div class="card p-[1rem]">RIGHT ITEM</div>
+            </div>
+        </div>
     </section>
 
-    <footer class="text-center text-sm text-white px-4 py-6">
+    <section class="footer text-center text-sm text-white px-4 py-6">
         <p>&copy; 2025 This site is unofficial and not affiliated with Formula 1.</p>
         <p>All images and media are property of their respective owners. Some images used are from <a href="https://www.formula1.com" target="_blank" class="underline">Formula1.com</a>.</p>
-    </footer>
+    </section>
 
     
 </body>
